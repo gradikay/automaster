@@ -1,0 +1,11 @@
+.Navigation .navbar-collapse {
+    background-color: transparent;
+}
+.Navigation li a {
+    font-size: 1rem;
+    color: white !important;
+    font-weight: bolder;
+    text-transform: uppercase;
+    background-color: #00001ac4;
+    margin-right: 5px;
+}

@@ -1,0 +1,11 @@
+.News .AddOn {
+    text-align: justify;
+} 
+.News .AddOn li {
+    display: inline-block;
+    width: 50%;
+    font-size:13px;
+}
+.News .w-30{
+    width: 30%;
+}

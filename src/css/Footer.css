@@ -1,0 +1,20 @@
+.Footer {
+    background-color: #00001a;
+    color: #e6e6ff;
+}
+.Footer a {
+    color: #e6e6ff;
+}
+/*
+    Medium to Extra small devices : > 768px
+*/
+@media only screen and (max-width: 700px) {
+    .Footer > footer > div > div,
+    .Footer > footer > div > section
+    {
+        text-align: center!important;
+        border-bottom: 1px solid white;
+        padding-bottom: 15px;
+        margin-bottom: 15px;
+    }
+}
