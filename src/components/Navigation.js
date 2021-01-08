@@ -42,7 +42,7 @@ function Navigation() {
                         { /* NEWS */ }
                         <ReactLink path="/news" name="News" /> 
                         { /* CONTACT */ }
-                        <ReactLink path="/contact" name="Contact"/>
+                        <HtmlLink path="#about" name="Contact"/>
                     </ul>
                 </div>
             </nav>

@@ -11,6 +11,7 @@ import Contact from "./containers/Contact";
 import Register from "./containers/Register";
 import Listings from "./containers/Listings";
 import NotFound from "./containers/NotFound"; 
+import ItemPreview from "./containers/ItemPreview";
 import Testimonials from "./containers/Testimonials";
 
 export default function Routes({ appProps }) {
@@ -23,8 +24,9 @@ export default function Routes({ appProps }) {
             <AppliedRoute path="/about" component={AboutUs} appProps={appProps} />
             <AppliedRoute path="/contact" component={Contact} appProps={appProps} />
             <AppliedRoute path="/register" component={Register} appProps={appProps} /> 
-            <AppliedRoute path="/Listings" exact component={Listings} appProps={appProps} />
-            <AppliedRoute path="/Testimonials" component={Testimonials} appProps={appProps} />
+            <AppliedRoute path="/listings" exact component={Listings} appProps={appProps} />
+            <AppliedRoute path="/testimonials" component={Testimonials} appProps={appProps} />
+            <AppliedRoute path="/item" component={ItemPreview} appProps={appProps} />
 
             { /* NO EXISTING LINKS */ }
             <Route component={NotFound} />

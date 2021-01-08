@@ -1,6 +1,7 @@
 import React from 'react';
-import { withRouter } from "react-router-dom";
+import { withRouter, Link } from "react-router-dom";
 import '../css/Home.css';
+import mustang from "../img/mustang.jpg"
 
 // Card 1 with props
 function Card1(props) {
@@ -45,11 +46,11 @@ function Card3() {
     return (
         <section className="card col-md-3 p-0 border-0 mb-3">
             { /* IMAGE */ }
-            <img
-                src="https://images.unsplash.com/photo-1597404294360-feeeda04612e?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1500&q=80"
+            <Link to="/item"><img
+                src={mustang}
                 alt="Chicago"
                 style={{ width: "100%" }}
-            />
+            /></Link>
             { /* CARD-BODY */ }
             <div className="card-body bg-light border">
                 { /* TITLE */ }
@@ -86,8 +87,8 @@ function Card3() {
                     <li className="list-group-item border-0 p-0 pr-5 pt-2  bg-light">
                         <p className=""><b>$10,000</b></p>
                     </li>
-                    <li className="list-group-item border-0 p-0  bg-light">
-                        <button type="button" className="btn btn-outline-danger">Buy Now</button>
+                    <li className="list-group-item border-0 p-0 bg-light">
+                        <Link to="/item" role="button" className="btn btn-outline-danger">Buy Now</Link>
                     </li> 
                 </ul>
             </div>
@@ -217,7 +218,7 @@ function Home() {
                     </div>
                 </section> 
                 { /* MOST POPULAR CARS - Card3 - SECTION */ }
-                <section className="container-fluid py-5 bg-white flex-wrap align-content-center justify-content-center" id="about">
+                <section className="container-fluid bg-white flex-wrap align-content-center justify-content-center" id="about">
                     { /* - CONTAINER - */ }
                     <div className="p-5">
                         { /* TITLE */ }

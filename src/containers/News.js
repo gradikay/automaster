@@ -32,30 +32,22 @@ function News() {
                             { /* SECTION */}
                             <Card3
                                 title="Car rates are dropping accross the nation"
-                                imageSource="https://images.unsplash.com/photo-1546422904-90eab23c3d7e?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1504&q=80"
-                                link="#"
-                                linkName="See Profile"
+                                imageSource="https://images.unsplash.com/photo-1546422904-90eab23c3d7e?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1504&q=80"  
                                 description="Lorem ipsum dolor sit amet consectetur adipisicing elit sed don eiusmod tempor enim minim veniam quis notrud exercitation"
                             />
                             <Card3
                                 title="Car rates are dropping accross the nation"
-                                imageSource="https://images.unsplash.com/photo-1561491431-71b89da6056a?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80"
-                                link="#"
-                                linkName="See Profile"
+                                imageSource="https://images.unsplash.com/photo-1561491431-71b89da6056a?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80" 
                                 description="Lorem ipsum dolor sit amet consectetur adipisicing elit sed don eiusmod tempor enim minim veniam quis notrud exercitation"
                             />
                             <Card3
                                 title="Car rates are dropping accross the nation"
-                                imageSource="https://images.unsplash.com/photo-1485579149621-3123dd979885?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1489&q=80"
-                                link="#"
-                                linkName="See Profile"
+                                imageSource="https://images.unsplash.com/photo-1485579149621-3123dd979885?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1489&q=80" 
                                 description="Lorem ipsum dolor sit amet consectetur adipisicing elit sed don eiusmod tempor enim minim veniam quis notrud exercitation"
                             />
                             <Card3
                                 title="Car rates are dropping accross the nation"
-                                imageSource="https://images.unsplash.com/photo-1489824904134-891ab64532f1?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=889&q=80"
-                                link="#"
-                                linkName="See Profile"
+                                imageSource="https://images.unsplash.com/photo-1489824904134-891ab64532f1?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=889&q=80" 
                                 description="Lorem ipsum dolor sit amet consectetur adipisicing elit sed don eiusmod tempor enim minim veniam quis notrud exercitation"
                             />
                         </div>

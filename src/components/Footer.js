@@ -34,11 +34,11 @@ function Footer() {
                         <h6>USA, Automaster, Lithonia GA 30058</h6>
                         <h6>Phone: +243 888-88-8888</h6>
                         <h6>Email: info@yebana.com</h6>
-                        <h6>&copy; 2020 Automaster LTD</h6>
+                        <h6>Copyright &copy; 2021 Kayamba React Theme.</h6>
                     </address>                    
                     { /* COPYRIGHT */ }
                     <div className="col-md-12 border-top pt-3 mt-lg-5 text-center">
-                        <p>Copyright &copy; 2018 WordPress Theme. All Rights Reserved.</p>
+                        <p>Copyright &copy; 2021 Kayamba React Theme. All Rights Reserved.</p>
                     </div>
                 </div>
             </footer>

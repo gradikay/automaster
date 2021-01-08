@@ -1,0 +1,22 @@
+.ItemPreview .vh-75 {
+    min-height:75vh;
+}
+.ItemPreview .carousel-slide img {
+    vertical-align: middle;
+    border-style: none;
+    display: block;
+    width: inherit;
+}
+.ItemPreview .carousel-slide {
+    background-color: black;
+    width: 100px;
+    height: auto;
+}
+.ItemPreview .carousel-indicators {
+    border: 1px solid #d3d3d34d!important;
+    
+}
+.ItemPreview .carousel a {
+    color:black;
+    font-size:xx-large;
+}
